@@ -1,23 +1,56 @@
-body {background-color: #FFF;}
-h1{color:#FFF;}
-main {background-color:#2E2F42;}
-p{color:#434455;}
-h3{color:#2E2F42;}
-
-
-.header{
-
-}   
-
-.footer{
-
+/* Base styles */
+body {
+    font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #2E2F42;
 }
+p {
+    color: #434455;
+  }
+
+
+
+<!--Головне меню навігації-->
 .logo{
+    color:#4D5AE5
+}
+<!--Пошта і телефон у шапці-->
 
+
+/* section hero */
+h1 {
+  color: #fff;
 }
-.logo-dark{
-color:#2E2F42;
+
+.hero {
+  background-color: #2e2f42;
 }
-.logo-light{
- color:#F4F4FD;
+
+h3 {
+  
 }
+
+.header {
+}
+
+.footer {
+}
+
+.logo-dark {
+  color: #2e2f42;
+}
+.logo-light {
+  color: #f4f4fd;
+}
+
+button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-family: inherit;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+.header-list-item{color:inherit}
