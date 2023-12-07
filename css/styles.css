@@ -8,18 +8,19 @@ p {
     color: #434455;
   }
 
+a{text-decoration: none;}
 
-
-<!--Головне меню навігації-->
+/* --Головне меню навігації--> */
 .logo{
     color:#4D5AE5
 }
-<!--Пошта і телефон у шапці-->
+/* --Пошта і телефон у шапці--> */
 
 
 /* section hero */
 h1 {
   color: #fff;
+  text-align: center;
 }
 
 .hero {
