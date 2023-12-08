@@ -18,13 +18,11 @@ p {
 a {
   text-decoration: none;
 }
+/* Header 2 */
 .ourteam-title,
 .portfolio-title {
   text-align: center;
-  /* Header 2 */
-
   font-size: 36px;
-
   font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
@@ -50,7 +48,8 @@ a {
 .header-list-item {
   color: inherit;
 }
-.header-link {
+.header-link,
+.header-link-studio {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
@@ -60,16 +59,22 @@ a {
 .header-link:focus {
   color: #404bbf;
 }
+
+.header-link-studio:hover,
+.header-link-studio:focus,
+.header-link-studio:active {
+  color: #404bbf;
+}
 /* --Пошта і телефон у шапці--> */
-.address-item-link{
-  color:#434455;
+.address-item-link {
+  color: #434455;
   font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
 .address-item-link:hover,
-.address-item-link:focus{
-  color:#404BBF;
+.address-item-link:focus {
+  color: #404bbf;
 }
 /* section hero */
 
