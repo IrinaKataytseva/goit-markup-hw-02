@@ -59,8 +59,7 @@ letter-spacing: 0.02em;
 .header-list-item {
   color: inherit;
 }
-.header-link,
-.header-link-studio {
+.header-link{
   color:#2e2f42;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -71,12 +70,12 @@ letter-spacing: 0.02em;
 .header-link:focus {
   color: #404bbf;
 }
-
-.header-link-studio:hover,
+/* .header-link-studio:hover,
 .header-link-studio:focus,
 .header-link-studio:active {
   color: #404bbf;
-}
+} */
+
 /* --Пошта і телефон у шапці--> */
 address{
   font-style: normal;
