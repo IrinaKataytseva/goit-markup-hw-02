@@ -121,19 +121,20 @@ button:focus {
 
 
 /* section advantages */
-.advantages-desc {
-}
-
-/* section our team */
-
-.ourteam {
-  background-color: #FFFFFF;
-}
 .advantages-caption {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+}
+.advantages-desc {
+}
+
+/* section our team */
+
+.ourteam,
+.ourteam-item {
+  background-color: #FFFFFF;
 }
 
 /* section portfolio */
