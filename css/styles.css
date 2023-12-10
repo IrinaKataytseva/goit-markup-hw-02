@@ -2,7 +2,8 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  /* color: #2e2f42; */
+  color: #434455;
 }
 
 ul,
@@ -34,7 +35,7 @@ a {
 }
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
@@ -66,9 +67,11 @@ a {
   color: #404bbf;
 }
 /* --Пошта і телефон у шапці--> */
+address{
+  font-style: normal;
+}
 .address-item-link {
   color: #434455;
-  font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -86,7 +89,7 @@ a {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07; 
   letter-spacing: 0.02em;
 }
 
@@ -95,7 +98,7 @@ button {
   background-color: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.04em;
   cursor: pointer;
 }
